@@ -1,0 +1,10 @@
+<div class="post-list">
+    <ul>
+        {% for post in site.posts %}
+        <li>
+            {{ post.date | date: "%m/%d/%Y" }}: <a href="{{ post.url }}">{{ post.title }}</a> 
+            {{ post.excerpt }}
+        </li>
+        {% endfor %}
+    </ul>
+</div>
