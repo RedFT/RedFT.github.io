@@ -1,0 +1,93 @@
+$sidebar-length: 300px;
+$sidebar-padding-top: 100px;
+
+$color1: #3d5a80;
+$color2: #98c1d9;
+$color3: #e0fbfc;
+$color4: #ee6c4d;
+$color5: #293241;
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  background-color: $color5;
+}
+
+/* The sidebar menu */
+.sidebar {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: $sidebar-length; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: $color1; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: $sidebar-padding-top;
+  }
+
+  /* The navigation menu links */
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 26px;
+    color: $color3;
+    display: block;
+  }
+
+
+/* Style page content */
+.main {
+    top: 0;
+    margin-left: $sidebar-length; /* Same as the width of the sidebar */
+    padding-top: $sidebar-padding-top;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+.main p {
+  color: $color3;
+}
+
+// .post-list {
+//   margin-left: 40px;
+//   margin-right: 40px;
+// }
+
+.post-list ul {
+  list-style-type: none;
+}
+
+.post-title {
+  color: $color4;
+  font-weight: bold;
+  font-size: 36px;
+  text-decoration: none;
+}
+
+.post-date {
+  color: $color2;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.p {
+  font-size: 18px;
+}
+
+.post-blurb {
+  color: $color3;
+  font-size: 18px;
+}
