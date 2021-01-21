@@ -47,6 +47,11 @@ body {
     display: block;
   }
 
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: $color5;
+  color: white;
+}
 
 /* Style page content */
 .main {
