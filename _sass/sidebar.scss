@@ -83,12 +83,22 @@ body {
 }
 
 .p {
+  color: $color3;
   font-size: 18px;
 }
 
 .post-blurb {
   color: $color3;
   font-size: 18px;
+}
+
+.highlight, .highlight pre, .highlight table {
+    padding-top: 0.01rem;
+    padding-bottom: 0.01rem;
+    padding-left: 0.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
