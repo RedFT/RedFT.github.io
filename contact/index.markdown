@@ -3,6 +3,6 @@ title: Contact
 layout: default
 ---
 
-email: norbu.tsering.cs@gmail.com
+email: mail at norbu dot link
 
 github: RedFT
